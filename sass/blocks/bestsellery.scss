@@ -1,0 +1,33 @@
+.bestsellery {
+
+    &__title {
+        text-align: center;
+        width: max-content;
+        margin: 0 auto;
+        text-transform: uppercase;
+    }
+
+    
+    .col__item:nth-child(3),
+    .col__item:nth-child(4) {
+        display: none;
+    }
+
+    .container {
+        margin-top: 100px;
+    }
+
+}
+
+@media (min-width: $width-tablet ) {
+    .bestsellery {}
+}
+
+@media (min-width: $width-desktop ) {
+    .bestsellery {
+        .col__item:nth-child(3),
+        .col__item:nth-child(4) {
+            display: block;
+        }
+    }
+}

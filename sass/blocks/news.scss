@@ -1,0 +1,38 @@
+.news {
+
+    &__title {
+        text-align: center;
+        width: max-content;
+        margin: 0 auto;
+        text-transform: uppercase;
+    }
+
+    .col-12:nth-child(3) {
+        display: none;
+    }
+
+    .col-12:last-child {
+        display: none;
+    }
+
+    .container {
+        margin-top: 100px;
+    }
+
+}
+
+@media (min-width: $width-tablet ) {
+    .news {
+        .col-12:nth-child(3) {
+            display: block;
+        }
+    }
+}
+
+@media (min-width: $width-desktop ) {
+    .news {
+        .col-12:last-child {
+            display: block;
+        }
+    }
+}

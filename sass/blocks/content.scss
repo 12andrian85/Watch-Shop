@@ -1,0 +1,12 @@
+.content{
+    .col__img{
+        background-image: url("/img/for_her.jpg");
+        background-size: cover;
+        filter: grayscale(2);
+        transition: 0.5s;
+    }
+    .col__img:hover{
+        filter: grayscale(0);
+        
+    }
+}
