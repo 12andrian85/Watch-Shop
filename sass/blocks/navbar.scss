@@ -1,0 +1,37 @@
+.navbar {
+
+    .collapse {
+        justify-content: end;
+    }
+
+    .nav-burger {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-item a {
+        text-transform: uppercase;
+        font-size: large;
+        font-weight: 600;
+        padding: 0 10px;
+        margin: 0 5px;
+    }
+
+    .nav-item a:hover {
+        color: $color-primary;
+    }
+
+    .nav-btn {
+        margin: 0 20px;
+        width: 40px;
+        height: 40px;
+        background-image: url(/img/cart-svgrepo-com.svg);
+        background-size: cover;
+    }
+}

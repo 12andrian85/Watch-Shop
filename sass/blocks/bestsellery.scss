@@ -1,13 +1,28 @@
 .bestsellery {
-
+    margin: 50px 0;
     &__title {
         text-align: center;
         width: max-content;
         margin: 0 auto;
         text-transform: uppercase;
+        border-bottom: 1px solid;
+        padding: 10px 0; 
+    }
+    .card{
+        border: none;
+        // text-align: center;
+    }
+    .card-body span{
+        text-transform: capitalize;
+        color: $color-grey;
+        font-size: x-large;
+    }
+    .card-body p{
+        border-bottom: 1px solid $color-grey-light;
+        font-size: xx-large;
+        font-weight: 600;    
     }
 
-    
     .col__item:nth-child(3),
     .col__item:nth-child(4) {
         display: none;
@@ -20,11 +35,17 @@
 }
 
 @media (min-width: $width-tablet ) {
-    .bestsellery {}
+    .bestsellery {
+        border-bottom: 1px solid $color-grey-light;
+        .card-body p{
+            border: none;
+        }
+    }
 }
 
 @media (min-width: $width-desktop ) {
     .bestsellery {
+
         .col__item:nth-child(3),
         .col__item:nth-child(4) {
             display: block;

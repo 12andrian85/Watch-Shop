@@ -18,78 +18,230 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand col-6-md-6" href="/index.html">
-                    <img src="/img/bootstrap-solid.svg" width="30" height="30" alt="" loading="lazy">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                    <ul class="navbar-nav w-100 d-flex justify-content-evenly text-uppercase">
-                        <li class="nav-item nav-item-home">
-                            <a class="nav-link active" aria-current="page" href="index.html">home</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" aria-current="page" href="#">woman</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">men</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">about as</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="icon-link" href="#">
-                                <img src="/img/bootstrap-solid.svg" width="30" height="30" alt="" loading="lazy">
-                            </a>
-                        </li>
-                    </ul>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="/img/logo_50.png" alt="">
+                    </a>
+                    <div class="nav-burger">
+                        <a class="nav-btn col d-lg-none"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="woman.html">women</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="man.html">men</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-as.html">abut as</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                        <a class="nav-btn d-block">
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     <main>
-        <!-- description -->
-        <div class="container">
-            <div class="row text-uppercase">
-                <div class="col">
-                    <img src="/img/woman_header.jpg" class="" style="height: 600px; width: 100%;" alt="">
+
+        <!-- <div class="container">
+                <div class="row text-white fs-4 justify-content-center align-items-center">
+                    <div class="col" style="height: 200px; background-color: red;">1</div>
+                    <div class="col" style="height: 200px; background-color: blue;">2</div>
+                    <div class="col" style="height: 200px; background-color: yellow;">3</div>
                 </div>
-                <div class="col-12 text-center">woman</div>
+                <div class="row">
+                    <div class="col" style="height: 200px; background-color: rgb(126, 156, 34);">4</div>
+                    <div class="col" style="height: 200px; background-color: rgb(151, 151, 223);">5</div>
+                    <div class="col" style="height: 200px; background-color: rgb(90, 90, 42);">6</div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col col-md-3 d-none d-md-block col-sub-menu">sub-menu</div>
-                <div class="col-12 col-md-9">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12 col-md-6 col-lg-4" style="height: 200px;"></div>
-                            <div class="col-12 col-md-6 col-lg-4" style="height: 200px;"></div>
-                            <div class="col-12 col-md-6 col-lg-4" style="height: 200px;"></div>
-                            <div class="col-12 col-md-6 col-lg-4" style="height: 200px;"></div>
-                            <div class="col-12 col-md-6 col-lg-4" style="height: 200px;"></div>
-                            <div class="col-12 col-md-6 col-lg-4" style="height: 200px;"></div>
+ -->
+
+
+        <!-- description -->
+        <div class="new-collection">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col col-img">
+                        <img src="/img/woman_header.jpg" class="" alt="">
+                    </div>
+                    <div class="col-12 text-center">
+                        <h1 class="new-collection-title">Woman</h1>
+                        <p class="new-collection-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Etiam sit amet ipsum elit. Praesent eget laoreet nisl.
+                            Maecenas ullamcorper volutpat lacus, sit amet iaculis lectus varius id.
+                            Donec pharetra consectetur suscipit. Nam mollis feugiat est ac ullamcorper.
+                            Duis efficitur sapien justo, iaculis cursus ex vulputate nec. Aliquam erat volutpat.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="row row-card">
+                    <div class="col col-md-3 d-none d-md-flex col-submenu">
+                        <a class="col-item " href="woman.html">Women</a>
+                        <a class="col-item active" href="man.html">Men</a>
+                        <a class="col-item" href="new collection.html">New Collection</a>
+                    </div>
+                    <div class="col-12 col-md-9 col-card">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card__object">
+                                            <img src="img/product_man.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text d-flex flex-column justify-content-between">
+                                                <span class="fs-4 text-secondary">
+                                                    product 4 n
+                                                </span>
+                                                <p class="fs-3 fw-semibold">250.00 $</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card__object">
+                                            <img src="img/product_man.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text d-flex flex-column justify-content-between">
+                                                <span class="fs-4 text-secondary">
+                                                    product 4 n
+                                                </span>
+                                                <p class="fs-3 fw-semibold">250.00 $</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card__object">
+                                            <img src="img/product_2.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text d-flex flex-column justify-content-between">
+                                                <span class="fs-4 text-secondary">
+                                                    product 4 n
+                                                </span>
+                                                <p class="fs-3 fw-semibold">250.00 $</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="height: 2px; color:black; width: 100%;" class="my-1 border-end-2"></div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card__object">
+                                            <img src="img/product_man.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text d-flex flex-column justify-content-between">
+                                                <span class="fs-4 text-secondary">
+                                                    product 4 n
+                                                </span>
+                                                <p class="fs-3 fw-semibold">250.00 $</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-none d-md-block col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card__object">
+                                            <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text d-flex flex-column justify-content-between">
+                                                <span class="fs-4 text-secondary">
+                                                    product 4 n
+                                                </span>
+                                                <p class="fs-3 fw-semibold">250.00 $</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-none d-md-block col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <div class="card__object">
+                                            <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text d-flex flex-column justify-content-between">
+                                                <span class="fs-4 text-secondary">
+                                                    product 4 n
+                                                </span>
+                                                <p class="fs-3 fw-semibold">250.00 $</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="card-arrows">
+                                <a href="#">
+                                    <img src="/img/arrow (1).svg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="/img/arrow.svg" alt="">
+                                </a>
+                        </div>  
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </main>
-        <!-- footer -->
+    <!-- FOOTER -->
+    <div class="footer">
         <div class="container text-center">
             <div class="row">
-                <div class="col-sm-12 col-md-3">footer</div>
-                <div class="col-sm-12 col-md-3">footer</div>
-                <div class="col-sm-12 col-md-3">footer</div>
-                <div class="col-sm-12 col-md-3">footer</div>
+                <div class="col-sm-12 col-md-3 footer-bloks">
+                    <h4>
+                        <a href="tel:+48 999 999 999">+48 999 999 999</a>
+                    </h4>
+                    <span>mon-fri 09:00 - 18:00</span>
+                    <a href="mailto:contact@contact.com">contact@contact.com</a>
+                </div>
+                <div class="col-sm-12 col-md-3 footer-bloks">
+                    <h4>CUSTOMER SERVICE</h4>
+                    <a href="#">Delivery</a>
+                    <a href="#">Return policy</a>
+                </div>
+                <div class="col-sm-12 col-md-3 footer-bloks">
+                    <h4>About company</h4>
+                    <a href="#">About as</a>
+                    <a href="#">contact</a>
+                </div>
+                <div class="col-sm-12 col-md-3 footer-bloks">
+                    <h4>follow as</h4>
+                    <div class="footer-socials">
+                        <a class="footer-social social-facebook" href="#">
+                        </a>
+                        <a class="footer-social social-instagram" href="#"></a>
+                        <a class="footer-social social-youtube" href="#"></a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="div" style="height:300px"></div>
+    </div>
+    <div class="div" style="height:300px"></div>
 </body>
 
 </html>

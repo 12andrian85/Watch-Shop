@@ -1,17 +1,17 @@
 .news {
 
-    &__title {
+    .news-title {
         text-align: center;
         width: max-content;
         margin: 0 auto;
         text-transform: uppercase;
+        border-bottom: 1px solid;
+        padding-bottom: 10px; 
     }
 
     .col-12:nth-child(3) {
         display: none;
-    }
-
-    .col-12:last-child {
+    } zx-12:last-child {
         display: none;
     }
 
@@ -19,10 +19,53 @@
         margin-top: 100px;
     }
 
+    .card-body span {
+        text-transform: capitalize;
+    }
+
+    .card-body p {
+        padding-bottom: 10px;
+        border-bottom: 1px solid $color-grey-light;
+    }
+
+    .card {
+        border: none;
+
+        &__object {
+            background-image: url(/img/home_header_1.jpg);
+            border-radius: 3px;
+
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        &__object img {
+            transition: 1.3s;
+            display: block;
+        }
+
+        &__object img:hover {
+            transform: scale(1+0.5);
+        }
+    }
+   
+
+
 }
 
 @media (min-width: $width-tablet ) {
     .news {
+
+        .row {
+            border-bottom: 1px solid $color-grey-light;
+            margin-bottom: 30px;
+        }
+
+        .card-body p {
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
         .col-12:nth-child(3) {
             display: block;
         }

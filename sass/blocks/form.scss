@@ -1,0 +1,66 @@
+.form {
+
+    .container {
+        text-align: center;
+        background-image: url("/img/man_header_newsletteer.jpg");
+        background-size: cover;
+        color: $color-white;
+        padding-bottom: 50px;
+    }
+
+    .row h2 {
+        font-size: xx-large;
+    }
+
+    .row p {
+        font-size: x-large;
+    }
+
+    .field {
+        text-align: start;
+        font-size: larger;
+    }
+
+    .btn {
+        background-color: $color-grey-light;
+        color: $color-white;
+        font-size: x-large;
+        margin: 20px auto;
+        padding: 10px 70px;
+        border-radius: 0;
+    }
+
+    .btn:hover {
+        background-color: $color-primary;
+    }
+}
+
+@media (min-width: $width-tablet ) {
+    .form {
+        .row p {
+            padding: 0 150px;
+        }
+    }
+}
+
+@media (min-width: $width-desktop ) {
+    .form {
+        .container {
+            text-align: start;
+            background-position-y: center;
+        }
+
+        .row p {
+            padding: 0;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .field {
+            padding-top: 50px;
+        }
+    }
+}

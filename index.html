@@ -18,41 +18,44 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand col-6-md-6" href="/index.html">
-                    <img src="/img/bootstrap-solid.svg" width="30" height="30" alt="" loading="lazy">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
-                    <ul class="navbar-nav w-100 d-flex justify-content-evenly text-uppercase">
-                        <li class="nav-item nav-item-home">
-                            <a class="nav-link active" aria-current="page" href="#">home</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" aria-current="page" href="woman.html">woman</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="man.html">man</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-as.html">about as</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="icon-link" href="#">
-                                <img src="/img/cart-svgrepo-com.svg" width="30" height="30" alt="" loading="lazy">
-                            </a>
-                        </li>
-                    </ul>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="/img/logo_50.png" alt="">
+                    </a>
+                    <div class="nav-burger">
+                        <a class="nav-btn col d-lg-none"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="woman.html">women</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="man.html">men</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-as.html">abut as</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                        <a class="nav-btn d-block">
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     <main>
         <!-- carousel -->
@@ -79,11 +82,11 @@
                 </div>
 
                 <!-- Custom caption -->
-                <div class="sa-carousel-inner translate-middle start-50 top-50 position-absolute p-3">
+                <div class="sa-carousel-inner translate-middle start-50 top-50 position-absolute">
                     <div class="sa-carousel-caption d-flex flex-column align-items-center text-light">
-                        <h1 class="mb-5">new spring collection</h1>
+                        <h1 class="mb-4">new spring collection</h1>
                         <p>Classic form. New colors.</p>
-                        <a class="btn btn-primary" href="new collection.html" role="button">BUY NOW</a>
+                        <a class="btn" href="new collection.html" role="button">BUY NOW</a>
                     </div>
                 </div>
             </div>
@@ -93,35 +96,40 @@
             <div class="container position-relative">
                 <div class="row justify-content-between">
                     <div
-                        class="col col-md-4 d-flex flex-column justify-content-between justify-content-md-start d-flex flex-column justify-content-between justify-content-md-start">
+                        class="col col-md-4 d-flex justify-content-between d-flex flex-column  justify-content-md-start">
                         <div>
                             <h3>Modern</h3>
-                            <p>paragraphe</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
                         </div>
                         <div class="d-none d-md-block">
-                            <h3>title</h3>
-                            <p>paragraphe</p>
+                            <h3>unique</h3>
+                            <p>Sed ac ligula dui. In tristique, tortor vel venenatis vulputate.</p>
                         </div>
                         <div>
                             <h3>Strong</h3>
-                            <p>paragraphe</p>
+                            <p>
+                                Praesent a turpis ut massa imperdiet hendrerit. Nam et ligula magna.
+                            </p>
                         </div>
                     </div>
-                    <div class="position-absolute translate-middle w-auto top-50 start-50">
-                        clock
+                    <div class="position position-absolute translate-middle w-auto  top-50 start-50">
+                        <img src="/img/product_0.webp" alt="">
                     </div>
                     <div class="col col-4 d-none d-md-block">
                         <div>
-                            <h3>title</h3>
-                            <p>paragraphe</p>
+                            <h3>esthetic</h3>
+                            <p>Phasellus vestibulum, erat non placerat dignissim, mauris mi vehicula enim.</p>
                         </div>
                         <div>
-                            <h3>title</h3>
-                            <p>paragraphe</p>
+                            <h3>precious</h3>
+                            <p>Donec et finibus odio. Ut vehicula nisl sed turpis tincidunt sagittis.</p>
                         </div>
                         <div>
-                            <h3>title</h3>
-                            <p>paragraphe</p>
+                            <h3>practical</h3>
+                            <p>Pellentesque eget enim quis lorem tristique malesuada.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -130,52 +138,96 @@
 
         <!-- news -->
         <section class="news">
-            <h1 class=" news__title text-center py-5 h1 pb-2 mb-4 border-3 border-bottom border-dark">News</h1>
+            <h2 class="news-title">News</h2>
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-3" style="height: 300px;">
-                        card
-
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <!-- start component -->
-                        <!-- <div class="card" style="width: 18rem;">
-                        <div class="card__object">
-                            <img src="img/product_1.jpg" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <div class="card-text d-flex flex-column justify-content-between">
-                                <span class="fs-4 text-secondary">
-                                    product 4 n
-                                </span>
-                                <p class="fs-3 fw-semibold">300.00 $</p>
+                        <div class="card">
+                            <a class="" href="woman.html">
+                                <div class="card__object">
+                                    <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </a>
+                            <div class="card-body">
+                                <div class="card-text d-flex flex-column justify-content-between">
+                                    <span class="fs-4 text-secondary">
+                                        product 4 n
+                                    </span>
+                                    <p class="fs-3 fw-semibold">250.00 $</p>
+                                </div>
                             </div>
                         </div>
-                    </div> -->
                         <!-- end component -->
-
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 overflow-hidden" style="width: 300px auto;">
-                        <a href="/gallerywach.html"><img src="img/product_1.jpg" class="img-thumbnail card-img-top"
-                                alt="..."></a>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 overflow-hidden;">
+                        <div class="card">
+                            <div class="card__object">
+                                <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text d-flex flex-column justify-content-between">
+                                    <span class="fs-4 text-secondary">
+                                        product 3 n
+                                    </span>
+                                    <p class="fs-3 fw-semibold">300.00 $</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 d-none d-md-block row__item" style="height: 300px;">
-                        card</div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 d-none d-lg-block row__item" style="height: 300px;">
-                        card</div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 d-none d-md-block row__item">
+                        <div class="card">
+                            <div class="card__object">
+                                <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text d-flex flex-column justify-content-between">
+                                    <span class="fs-4 text-secondary">
+                                        product 2 n
+                                    </span>
+                                    <p class="fs-3 fw-semibold">270.00 $</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 d-none d-lg-block row__item">
+                        <div class="card">
+                            <div class="card__object">
+                                <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text d-flex flex-column justify-content-between">
+                                    <span class="fs-4 text-secondary">
+                                        product 1 n
+                                    </span>
+                                    <p class="fs-3 fw-semibold">240.00 $</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- content -->
-        <div class="content bg-secondary py-5">
+        <div class="content  py-5">
             <div class="container text-center text-white overflow-hidden">
-                <div class="row gx-5 justify-content-between">
-                    <div class="col-12 col-md-6 col-lg-6 p-5">
-                        <div>FOR HIM</div>
+                <div class="row justify-content-between">
+                    <div
+                        class="col-sm-12 col-lg-6 col__img col-12 p-3 p-md-3 align-items-center justify-content-center d-flex">
+                        <a href="man.html">
+                            <div class="content-block">
+                                <img src="/img/for_him.webp" alt="">
+                                <h2 class="content-title">FOR HIM</h2>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-sm-12 col-lg-6 col__img col-12 p-5 align-items-center justify-content-center d-flex" style="height: 350px;">
-                        <a href="">
-                            <div>
-                                <h1>FOR HER</h1>
+                    <div
+                        class="col-sm-12 col-lg-6 col__img col-12 p-3 align-items-center justify-content-center d-flex">
+                        <a href="woman.html">
+                            <div class="content-block">
+                                <img src="/img/for_her.jpg" alt="">
+                                <h2 class="content-title">FOR HER</h2>
                             </div>
                         </a>
                     </div>
@@ -185,36 +237,129 @@
 
         <!-- BESTSELLERY -->
         <section class="bestsellery">
-            <h1 class=" bestsellery__title text-center py-5 h1 pb-2 mb-4 border-3 border-bottom border-dark">BESTSELLERY</h1>
-            <div class="container text-center">
+            <h2 class=" bestsellery__title">BESTSELLERY
+            </h2>
+            <div class="container">
                 <div class="row">
-                    <div class="col__item col-sm-12 col-md-6 col-lg-3" style="height: 300px;">card</div>
-                    <div class="col__item col-sm-12 col-md-6 col-lg-3" style="height: 300px;">card</div>
-                    <div class="col__item col-sm-12 col-md-6 col-lg-3" style="height: 300px;">card</div>
-                    <div class="col__item col-sm-12 col-md-6 col-lg-3" style="height: 300px;">card</div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                        <!-- start component -->
+                        <div class="card">
+                            <div class="card__object">
+                                <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text d-flex flex-column justify-content-between">
+                                    <span>
+                                        product 4 n
+                                    </span>
+                                    <p>250.00 $</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end component -->
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 overflow-hidden;">
+                        <div class="card">
+                            <div class="card__object">
+                                <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text d-flex flex-column justify-content-between">
+                                    <span>
+                                        product 3 n
+                                    </span>
+                                    <p>300.00 $</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 d-none d-md-block row__item">
+                        <div class="card">
+                            <div class="card__object">
+                                <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text d-flex flex-column justify-content-between">
+                                    <span>
+                                        product 2 n
+                                    </span>
+                                    <p>270.00 $</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-3 d-none d-lg-block row__item">
+                        <div class="card">
+                            <div class="card__object">
+                                <img src="img/product_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-text d-flex flex-column justify-content-between">
+                                    <span>
+                                        product 1 n
+                                    </span>
+                                    <p>240.00 $</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!--FORM -->
-        <div class="join-us container text-center">
-            <div class="row justify-content-between gx-2">
-                <div class="col-lg-4">
-                    <div class="m-5 align-items-center d-flex">text</div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="m-5 align-items-center d-flex">form</div>
+        <div class="form">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-4">
+                        <div class="m-5">
+                            <h2>Join us<h2>
+                                    <p>For all new subscribers
+                                        -15% on your first order</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="field">
+                            <label for="mail">Your e-mail:</label>
+                            <input class="input" type="text" id="mail" placeholder="your e@mail.pl">
+                        </div>
+                        <button class="btn" type="submit">save</button>
+                    </div>
                 </div>
             </div>
         </div>
-        
+
         <!-- FOOTER -->
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-sm-12 col-md-3">footer</div>
-                <div class="col-sm-12 col-md-3">footer</div>
-                <div class="col-sm-12 col-md-3">footer</div>
-                <div class="col-sm-12 col-md-3">footer</div>
+        <div class="footer">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 footer-bloks">
+                        <h4>
+                            <a href="tel:+48 999 999 999">+48 999 999 999</a>
+                        </h4>
+                        <span>mon-fri 09:00 - 18:00</span>
+                        <a href="mailto:contact@contact.com">contact@contact.com</a>
+                    </div>
+                    <div class="col-sm-12 col-md-3 footer-bloks">
+                        <h4>CUSTOMER SERVICE</h4>
+                        <a href="#">Delivery</a>
+                        <a href="#">Return policy</a>
+                    </div>
+                    <div class="col-sm-12 col-md-3 footer-bloks">
+                        <h4>About company</h4>
+                        <a href="#">About as</a>
+                        <a href="#">contact</a>
+                    </div>
+                    <div class="col-sm-12 col-md-3 footer-bloks">
+                        <h4>follow as</h4>
+                        <div class="footer-socials">
+                            <a class="footer-social social-facebook" href="#">
+                            </a>
+                            <a class="footer-social social-instagram" href="#"></a>
+                            <a class="footer-social social-youtube" href="#"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div style="height:200px"></div>
