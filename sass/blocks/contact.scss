@@ -1,0 +1,70 @@
+.contact {
+    .col h2 {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 20px;
+    }
+
+    .field textarea {
+        border-radius: 0;
+        border: 2px solid $color-grey;
+    }
+
+    .btn {
+        color: $color-white;
+        background-color: $color-grey-light;
+        border-radius: 0;
+        padding: 10px 100px;
+    }
+
+    .btn:hover {
+        color: $color-white;
+        background-color: $color-primary;
+    }
+
+    .details {
+        position: relative;
+        padding: 20px 0 20px 100px;
+    }
+
+    .details::before {
+        position: absolute;
+        content: "";
+        width: 30px;
+        height: 30px;
+        top: 30px;
+        left: 50px;
+        background-size: cover;
+    }
+
+    .details-sales::before {
+        background-image: url("/img/message-svgrepo-com.svg");
+    }
+
+    .details-hotline::before {
+        background-image: url("/img/call-svgrepo-com.svg");
+
+    }
+
+    .details-collaboration::before {
+        background-image: url("/img/people-group-svgrepo-com.svg");
+    }
+}
+
+@media (min-width: $width-tablet ) {
+    .contact {
+
+        .col h2 {
+            text-align: start;
+            margin: 40px 0;
+        }
+
+        .details-title {
+            padding-left: 45px;
+        }
+
+        .details {
+            padding-top: 25px;
+        }
+    }
+}

@@ -35,7 +35,7 @@ input[type="tel"] {
     padding: 10px 10px;
     color: $color-text-base;
     border: 2px solid $color-grey;
-    // border-radius: 10px;
+    border-radius: 0;
 
     // Manage hover state
     // &:hover {
@@ -59,8 +59,8 @@ textarea {
     min-height: 100px;
     padding: 20px;
     resize: vertical;
-    border: 2px solid grey;
-    border-radius: 15px;
+    border: 2px solid $color-grey;
+    border-radius: 0;
 }
 
 // style custom radio and checkbox

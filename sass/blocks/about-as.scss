@@ -1,0 +1,52 @@
+.about-as{
+    .col-img{
+        position: relative;
+        height: 350px;
+        overflow: hidden;
+    }
+    .col-foto{
+        position: absolute;
+        bottom: -100px;
+        object-fit: cover;
+    }
+    .col-content h1{
+        margin: 40px 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .col-content p{
+        text-align: start;
+        // padding: 0 150px;
+    }
+    .col h2{
+        margin: 40px 0;
+    }
+    .field input{
+        border-radius: 0;
+    }
+    .field textarea{
+        border-radius: 0;
+        border: 2px solid $color-grey;
+    }
+    .btn{
+        color: $color-white;
+        background-color: $color-grey-light;
+        border-radius: 0;
+        padding: 10px 100px;
+    }
+    .btn:hover{
+        color: $color-white;
+        background-color: $color-primary;
+    }
+    
+}
+@media (min-width: $width-tablet ) {}
+
+
+@media (min-width: $width-desktop ) {
+    .about-as{
+        .col-content p{
+            padding: 0 150px;
+        }
+    }
+}
