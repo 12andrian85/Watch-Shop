@@ -6,12 +6,14 @@
         margin: 0 auto;
         text-transform: uppercase;
         border-bottom: 1px solid;
-        padding-bottom: 10px; 
+        padding-bottom: 10px;
     }
 
     .col-12:nth-child(3) {
         display: none;
-    } zx-12:last-child {
+    }
+
+    .col-12:last-child {
         display: none;
     }
 
@@ -32,7 +34,7 @@
         border: none;
 
         &__object {
-            background-image: url(/img/home_header_1.jpg);
+            background-image: url("https://12andrian85.github.io/lex-corp/img/home_header_1.jpg");
             border-radius: 3px;
 
             display: inline-block;
@@ -45,10 +47,10 @@
         }
 
         &__object img:hover {
-            transform: scale(1+0.5);
+            transform: scale(1.5);
         }
     }
-   
+
 
 
 }

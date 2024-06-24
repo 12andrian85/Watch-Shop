@@ -43,6 +43,16 @@
         color: $color-white;
         background-color: $color-grey;
     }
+    .carousel{
+
+        .carousel-img{
+            height: 400px;
+        }
+        .carousel-item{
+            height: auto;
+        }
+    }
+
 }
 @media (min-width: $width-tablet ) {
     .product{
@@ -63,6 +73,13 @@
         }
         .card-btn{
             justify-content: start;
+        }
+        .card-title{
+            text-align: center;
+            padding: 40px 0;
+        }
+        .row-product{
+            border-bottom: 1px solid $color-grey;
         }
     }
 }

@@ -1,21 +1,22 @@
 .footer {
     background-color: $color-primary;
-    margin: 50px 0;
+    padding: 50px 0;
+    margin-top: 50px;
 
-    .footer-bloks h4 a {
+        .footer-blocks h4 a {
         text-decoration: none;
         color: $color-black;
         font-size: 1.5rem;
     }
 
-    .footer-bloks h4 {
+        .footer-blocks h4 {
         text-transform: uppercase;
         padding: 20px 0;
         font-weight: 700;
 
     }
 
-    .footer-bloks a {
+        .footer-blocks a, span {
         text-decoration: none;
         color: $color-black;
         font-size: 1rem;
@@ -26,7 +27,7 @@
         font-size: 1rem;
     }
 
-    .footer-bloks {
+        .footer-blocks{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -47,15 +48,15 @@
     }
 
     .social-facebook {
-        background-image: url("/img/icon-facebook.svg");
+        background-image: url("/public/icons/icon-facebook.svg");
     }
 
     .social-instagram {
-        background-image: url("/img/icon-insta.svg");
+        background-image: url("/public/icons/icon-insta.svg");
     }
 
     .social-youtube {
-        background-image: url("/img/icon-youtube.svg");
+        background-image: url("/public/icons/icon-youtube.svg");
     }
 }
 

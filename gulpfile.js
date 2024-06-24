@@ -9,7 +9,7 @@ function style() {
     return src('./sass/style.scss')
         // pass files throw sass compiler
         .pipe(sass().on('error', sass.logError))
-        .pipe(dest('./css'))
+        .pipe(dest('./public/css'))
         // Stream changes to all browser
         .pipe(browserSync.stream())
 }
