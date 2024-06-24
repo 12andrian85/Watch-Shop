@@ -632,13 +632,13 @@ form .field {
   background-position: center;
 }
 .footer .social-facebook {
-  background-image: url("/public/icons/icon-facebook.svg");
+  background-image: url("https://12andrian85.github.io/Watch-Shop/public/icons/icon-facebook.svg");
 }
 .footer .social-instagram {
-  background-image: url("/public/icons/icon-insta.svg");
+  background-image: url("https://12andrian85.github.io/Watch-Shop/public/icons/icon-insta.svg");
 }
 .footer .social-youtube {
-  background-image: url("/public/icons/icon-youtube.svg");
+  background-image: url("https://12andrian85.github.io/Watch-Shop/public/icons/icon-youtube.svg");
 }
 
 @media (min-width: 768px) {
