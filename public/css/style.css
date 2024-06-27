@@ -510,6 +510,9 @@ form .field {
   background-color: #e4d8d6;
 }
 
+.navbar .navbar-brand {
+  width: 120px;
+}
 .navbar .collapse {
   justify-content: end;
 }
@@ -536,13 +539,18 @@ form .field {
   margin: 0 20px;
   width: 40px;
   height: 40px;
-  background-image: url("/img/cart-svgrepo-com.svg");
+  background-image: url(" https://12andrian85.github.io/Watch-Shop/public/icons/cart-svgrepo-com.svg");
   background-size: cover;
 }
 
+@media (min-width: 768px) {
+  .navbar-brand {
+    width: auto;
+  }
+}
 .form .container {
   text-align: center;
-  background-image: url("https://12andrian85.github.io/lex-corp/public/img/man_header_newsletteer.jpg");
+  background-image: url("https://12andrian85.github.io/Watch-Shop/public/img/man_header_newsletteer.jpg");
   background-size: cover;
   color: #ffffff;
   padding-bottom: 50px;
@@ -824,6 +832,9 @@ form .field {
   .product .row-product {
     border-bottom: 1px solid #7a7b7a;
   }
+}
+.card-product {
+  overflow: hidden;
 }
 .card-product .card-img-top {
   height: 370px;
