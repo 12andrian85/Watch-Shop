@@ -1,7 +1,7 @@
 .carousel {
 
     .carousel-item {
-        height: 90vh;
+        height: 70vh;
     }
 
     .sa-carousel-caption h1 {
@@ -38,23 +38,23 @@
         padding: 10px 50px;
     }
 
-    .btn:hover{
+    .btn:hover {
         border-color: $color-primary;
     }
+}
 
-    @media (min-width: $width-tablet ) {
-        .carousel {
-            .carousel-item {
-                height: 450px;
-            }
+@media (min-width: $width-tablet ) {
+    .carousel {
+        .carousel-item {
+            height: auto;
         }
     }
+}
 
-    @media (min-width: $width-desktop ) {
-        .carousel {
-            .carousel-item {
-                height: 550px;
-            }
+@media (min-width: $width-desktop ) {
+    .carousel {
+        .carousel-item {
+            height: 70vh;
         }
     }
 }

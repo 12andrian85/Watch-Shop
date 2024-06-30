@@ -218,7 +218,7 @@ form .field {
 }
 
 .carousel .carousel-item {
-  height: 90vh;
+  height: 70vh;
 }
 .carousel .sa-carousel-caption h1 {
   text-transform: uppercase;
@@ -251,17 +251,17 @@ form .field {
 .carousel .btn:hover {
   border-color: #f9c4ac;
 }
+
 @media (min-width: 768px) {
-  .carousel .carousel .carousel-item {
-    height: 450px;
+  .carousel .carousel-item {
+    height: auto;
   }
 }
 @media (min-width: 992px) {
-  .carousel .carousel .carousel-item {
-    height: 550px;
+  .carousel .carousel-item {
+    height: 70vh;
   }
 }
-
 .review {
   padding: 50px 0;
 }
@@ -347,7 +347,7 @@ form .field {
   display: block;
 }
 .news .card__object img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 @media (min-width: 768px) {
@@ -541,8 +541,8 @@ form .field {
 }
 
 @media (min-width: 768px) {
-  .navbar-brand {
-    width: auto;
+  .navbar .navbar-brand {
+    width: 10rem;
   }
 }
 .form .container {
@@ -563,15 +563,16 @@ form .field {
   font-size: larger;
 }
 .form .btn {
-  background-color: #e4d8d6;
+  background-color: #7a7b7a;
+  opacity: 0.6;
   color: #ffffff;
-  font-size: x-large;
   margin: 20px auto;
   padding: 10px 70px;
   border-radius: 0;
 }
 .form .btn:hover {
   background-color: #f9c4ac;
+  opacity: 1;
 }
 
 @media (min-width: 768px) {

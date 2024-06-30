@@ -1,7 +1,8 @@
 .navbar {
-    .navbar-brand{
+    .navbar-brand {
         width: 110px;
     }
+
     .collapse {
         justify-content: end;
     }
@@ -37,8 +38,11 @@
         background-size: cover;
     }
 }
+
 @media (min-width: $width-tablet) {
-    .navbar-brand{
-        width: auto;
+    .navbar {
+        .navbar-brand {
+            width: 10rem;
+        }
     }
 }

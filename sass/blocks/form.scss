@@ -22,9 +22,9 @@
     }
 
     .btn {
-        background-color: $color-grey-light;
+        background-color: $color-grey;
+        opacity: 0.6;
         color: $color-white;
-        font-size: x-large;
         margin: 20px auto;
         padding: 10px 70px;
         border-radius: 0;
@@ -32,6 +32,7 @@
 
     .btn:hover {
         background-color: $color-primary;
+        opacity: 1;
     }
 }
 
