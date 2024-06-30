@@ -452,12 +452,9 @@ form .field {
 }
 .products .col-img {
   position: relative;
-  height: 350px;
   overflow: hidden;
 }
 .products .col-img img {
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 .products .col-foto {
@@ -511,7 +508,7 @@ form .field {
 }
 
 .navbar .navbar-brand {
-  width: 120px;
+  width: 110px;
 }
 .navbar .collapse {
   justify-content: end;
@@ -661,13 +658,9 @@ form .field {
   }
 }
 .about-as .col-img {
-  position: relative;
-  height: 350px;
   overflow: hidden;
 }
 .about-as .col-foto {
-  position: absolute;
-  bottom: -100px;
   object-fit: cover;
 }
 .about-as .col-content h1 {

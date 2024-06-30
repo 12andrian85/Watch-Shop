@@ -1,16 +1,15 @@
 .products {
     .col-img {
         position: relative;
-        height: 350px;
+        // height: 350px;
         overflow: hidden;
     }
 
     .col-img img {
-        position: absolute;
-        bottom: 0;
         width: 100%;
     }
-    .col-foto{
+
+    .col-foto {
         top: -120px;
     }
 
@@ -69,5 +68,12 @@
 
     .my-1 {
         background-color: $color-grey-light;
+    }
+}
+
+@media (min-width: $width-desktop) {
+    .products {
+        .col-img {
+        }
     }
 }
